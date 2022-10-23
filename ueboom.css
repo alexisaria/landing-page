@@ -1,0 +1,124 @@
+
+header {
+    background-color: black;
+}
+
+h1 {
+   color: white;
+   text-align: center;
+}
+
+nav a{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+}
+
+
+p{
+    font-size: 24px;
+    text-align: center;
+}
+body {
+    margin: 0%;
+}
+.caracteristique1  {
+    margin: 0%;
+}
+
+#custom-text {
+    font-size: 24px;
+    text-align: center;
+}
+.tableau{ 
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flexaccueil {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+   
+}
+
+main {
+    background-color: blanchedalmond;
+}
+
+.imagedefond {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+   
+}
+
+.morph {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.fin{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+
+main {
+    font-style: oblique;
+}
+
+header { 
+    font-style: italic;
+}
+
+.millieu {
+ font-size: 200%;
+}
+
+html,body {
+margin: 0;
+padding: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        width:100%;
+        height: 50px;
+    }
+
+    .morph {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+    .fin {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+
+    }
+
+}
+
